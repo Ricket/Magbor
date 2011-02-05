@@ -1,0 +1,24 @@
+[Properties]
+name=River and Lake
+description=A field between a river and lake.
+width=15
+height=16
+filename=default
+
+[Layout]
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4
+Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4
+Transition3|Transition3|Transition3|Transition3|Transition3|Transition3|Transition3|Transition3|Transition3|Transition3|Transition3|Transition3|Transition3|Transition3|Transition3
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Transition5|Transition4|Transition4
+Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Grass4|Transition1|Waterness|Waterness
+Grass4|Grass4|Transition5|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition4|Transition6|Waterness|Waterness
+Grass4|Grass4|Transition1|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness
+Grass4|Grass4|Transition1|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness|Waterness

@@ -1,0 +1,21 @@
+TODO list:
+
+-Make error numbers and messages consistent
+-Improve the artwork, make a better map
+-Add teleports (move the player from one map to another)
+ (a door would be a type of teleport)
+-Create admin files to allow editing without file access
+-Make PHP load the map files and enforce widths and heights
+-Add ability to equip items
+-Make the interface "prettier" - less whitespace, more art
+-Animated walking images, and other stances
+-Women characters
+-Allow awkward, non-rectangular maps
+-Add NPCs
+
+
+Sometime in the distant future:
+-Running
+-The ability to fight
+-Monsters to kill
+-Horses and other types of mounted animals

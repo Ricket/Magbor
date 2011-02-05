@@ -1,0 +1,84 @@
+<html>
+<head>
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<title>Magbor</title>
+<style type="text/css">
+body {
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+
+}
+html,body,center {
+	height:100%;
+}
+table,tbody,tr,td {
+	border:1px solid #000000;
+}
+table,tbody {
+	width:100%;
+	height:100%;
+}
+.right {
+	width:250px;
+
+	vertical-align:top;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+.right2 {
+	width:250px;
+	height:200px;
+
+	vertical-align:top;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+</style>
+<script language="Javascript" src="gameWin.js"></script>
+</head>
+<body onload="docLoaded()" onunload="pageUnloading()">
+<table id="centerTable" cellpadding="0" cellspacing="0" width="100%" height="100%">
+
+		<tr>
+			<td rowspan="2">
+				<!-- Map -->
+				<iframe name="mapFrame" id="mapFrame" src="map.html" frameborder="0" width="100%" height="100%" style="border:1px solid #ff0000;"></iframe>
+			</td>
+			<td class="right">
+				<div id='toprightdiv' class="rightdiv">
+					<!-- Something goes here! -->
+					<center>
+					<div id="inventoryDiv"><center><b><u>Inventory</u></b></center></div>
+					</center>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td class="right2" align="center">
+
+					<!-- User status -->
+					<u>Chat</u><br>
+					<iframe id="chatArea" name="chatArea" src="blank.html" width="100%" height="100%" scrolling="yes" style="display:inline;overflow:scroll;"></iframe>
+
+			</td>
+		</tr>
+		<tr height="25">
+			<form name="chatForm" id="chatForm" action="javascript:void(0);" method="POST" onsubmit="chatSubmit()">
+				<td>
+					<input type="text" name="chatBox" id="chatBox" style="width:100%;" value="[chat messages here]" onfocus="chatBoxFocus()" onblur="chatBoxBlur()" />
+				</td>
+				<td class="right">
+					<input type="submit" name="chatSend" id="chatSend" style="width:100%" value="Send" />
+				</td>
+			</form>
+		</tr>
+
+</table>
+</body>
+</html>

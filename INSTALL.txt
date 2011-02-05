@@ -1,0 +1,54 @@
+Installation Instructions:
+
+1) Copy all files to the web server
+2) Edit the variables in session_mysql.php that
+   correspond to your MySQL login details.
+3) Create a database called Magbor.
+4) Run the SQL script in /install to create the tables,
+   then delete the whole /install folder.
+5) Edit the database to your liking, and then
+   log in and play!
+
+The passwords are:
+ Ricky28269         Ricky
+ test               test
+ test2              test2
+ etc... for the other tests
+
+Passwords are stored in MD5 format.
+
+=======================================================================
+session_mysql.php does NOT have to be used, you can use the regular
+session handler if you'd like to. just comment out the require_onces
+of session_mysql.php and add a different include that creates a mysql
+connection and uses the magbor database. i just decided that i like the
+idea of having my session "files" in my database, even though it makes
+a bit more database traffic.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! WARNINGS - READ ALL OF THIS! !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+This game creates heavy traffic! It is recommended to
+run the game only as localhost or within LAN for now.
+I am not responsible for any fees associated with
+the extra traffic caused by this game. In fact, I am
+not responsible for ANYTHING you do concerning this
+game. You are on your own, and you are free to
+experiment as you like, but leave me out of it!
+
+The average user will receive about 200 bytes of data
+each second, IF nobody else has performed any actions
+(an action is walking, chatting, logging in/out, etc.)
+This is increased by the user or other nearby users
+moving around, talking, or logging in and out.
+I have not measured exactly how much bandwidth is used,
+but I can assure you it is pretty heavy, and should be
+used sparingly. I will make sure to greatly reduce the
+load in the next release, but this release was simply
+a proof of concept.
+
+Also, there are no DDOS attack prevention methods in
+here, so someone could easily spam chat with large
+messages and instantly raise bandwidth, possibly even
+crashing older computers. This has not been tested,
+but I will put protection methods in the next release.
