@@ -3,7 +3,7 @@ Installation Instructions:
 1) Copy all files to the web server
 2) Edit the variables in session_mysql.php that
    correspond to your MySQL login details.
-3) Create a database called Magbor.
+3) Create a database called magbor.
 4) Run the SQL script in /install to create the tables,
    then delete the whole /install folder.
 5) Edit the database to your liking, and then

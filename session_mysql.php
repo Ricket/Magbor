@@ -52,7 +52,7 @@
  */
 
 $SESS_DBHOST = "localhost";			/* database server hostname */
-$SESS_DBNAME = "Magbor";			/* database name */
+$SESS_DBNAME = "magbor";			/* database name */
 $SESS_DBUSER = "root";		/* database user */
 $SESS_DBPASS = "";		/* database password */
 
