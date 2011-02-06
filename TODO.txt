@@ -1,13 +1,16 @@
 TODO list:
 
+-Replace browser-dependent code and manual animations and such with jQuery
 -Make error numbers and messages consistent
+-Update the homepage and other pages with an actual layout
 -Improve the artwork, make a better map
 -Add teleports (move the player from one map to another)
  (a door would be a type of teleport)
--Create admin files to allow editing without file access
--Make PHP load the map files and enforce widths and heights
+-Create admin pages to allow editing without file access
+-Make the PHP (server) load the map files and enforce widths and heights
+-Finish inventory system
 -Add ability to equip items
--Make the interface "prettier" - less whitespace, more art
+-Make the game client interface "prettier" - less whitespace, more art
 -Animated walking images, and other stances
 -Women characters
 -Allow awkward, non-rectangular maps
@@ -15,6 +18,7 @@ TODO list:
 
 
 Sometime in the distant future:
+-Move server technology to node.js and client to use WebSockets for true realtime
 -Running
 -The ability to fight
 -Monsters to kill
